@@ -9,6 +9,6 @@
 此项目记录我自己实现的版本。
 以下为两张预览图。
 
-![map_example](D:\Some Individual Projects\BearMap\map_example.png)
+![map_example](map_example.png)
 
-![route_example](D:\Some Individual Projects\BearMap\route_example.png)
+![route_example](route_example.png)

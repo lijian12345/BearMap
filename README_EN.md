@@ -9,6 +9,6 @@ This proj form CS61B, is a map proj inspired by Google Map, implementing routing
 This proj records my version.
 There are two previews as following.
 
-![map_example](D:\Some Individual Projects\BearMap\map_example.png)
+![map_example](map_example.png)
 
-![route_example](D:\Some Individual Projects\BearMap\route_example.png)
+![route_example](route_example.png)
