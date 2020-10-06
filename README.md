@@ -14,15 +14,11 @@
 
 - 或者我们可以运行如下命令：
 
-  - ```bash
-    mvn clean compile assembly:single
-    ```
-
-    然后可以在 target 目录下看到一个 jar 包，将其复制到项目根目录下，运行如下命令：
-
-  - ```bash
-    java -jar bearmap-1.0-jar-with-dependencies.jar
-    ```
+  ```bash
+  mvn clean compile assembly:single
+  cp target/bearmap-1.0-jar-with-dependencies.jar .
+  java -jar bearmap-1.0-jar-with-dependencies.jar
+  ```
 
 - 最后打开浏览器输入 localhost:4567 即可看到地图。
 
