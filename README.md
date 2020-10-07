@@ -10,16 +10,18 @@
 
 ### 如何运行
 
-- 运行 **MapServer** 类下的 main 方法即可。
-
-- 或者我们可以运行如下命令：
+- 首先我们可以运行如下命令：
 
   ```bash
   mvn clean compile assembly:single
-  cp target/bearmap-1.0-jar-with-dependencies.jar .
-  java -jar bearmap-1.0-jar-with-dependencies.jar
   ```
 
+- 然后运行 **MapServer** 类下的 main() 方法即可。
+  - 或者也可以运行如下命令：
+    ```bash
+    cp target/bearmap-1.0-jar-with-dependencies.jar .
+    java -jar bearmap-1.0-jar-with-dependencies.jar
+    ```
 - 最后打开浏览器输入 localhost:4567 即可看到地图。
 
 ### 如何使用

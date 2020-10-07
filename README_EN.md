@@ -10,15 +10,20 @@ This project records my version.
 
 ### How to Run
 
-- Run the main() method of **MapServer** class.
-
-- Or we can execute these commands as following：
+- Firstly we can execute this command as following:
 
   ```bash
   mvn clean compile assembly:single
-  cp target/bearmap-1.0-jar-with-dependencies.jar .
-  java -jar bearmap-1.0-jar-with-dependencies.jar
   ```
+
+- Then run the main() method of **MapServer** class.
+
+  - Or we can execute these commands as following:
+
+    ```bash
+    cp target/bearmap-1.0-jar-with-dependencies.jar .
+    java -jar bearmap-1.0-jar-with-dependencies.jar
+    ```
 
 - Finally open the browser and type the localhost:4567, a map will display.
 
