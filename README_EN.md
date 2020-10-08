@@ -27,6 +27,16 @@ This project records my version.
 
 - Finally open the browser and type the localhost:4567, a map will display.
 
+### Simple Deployment
+
+- Firstly execute this command:
+
+  ```bash
+  nohup java -jar bearmap-1.0-jar-with-dependencies.jar >/dev/null 2>log &
+  ```
+
+- If we choose caddy to deploy, we only need to add one line(reverse_proxy localhost:4567) in caddyfile. Of course we need to prepare the domain name and A record well before this operation.
+
 ### How to Use
 
 - In browser we can find a area of map and we can drag or scroll the mouse to control the concrete area of this map.
@@ -38,3 +48,16 @@ This project records my version.
 - In search bar we can type some location prefix, browser will display some autocompleted locations.
 
   <img src="map_example.png" alt="map_example" style="zoom:60%;" />
+
+### Main Feature
+
+- Map Rastering: Rastering is the job of converting information into a pixel-by-pixel image. Given the longitude, latitude and LonDPP from the browser, the project can show the concrete map images in the browser.
+- Routing & Location Data: Use a real world dataset combined with an industrial strength dataset parser to construct a graph. This graph contains all Location data and route information.
+
+- Route Search: Find the shortest path between start point and end point using A\* algorithm.
+
+- Autocompletion: User can search a point they want through autocompletion. This feature is implemented through constructing a trie.
+
+### Need to Update
+
+- Use k-d tree to implement range search based on longitude and latitude.
