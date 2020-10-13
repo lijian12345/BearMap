@@ -49,7 +49,7 @@ This project records my version.
 
   <img src="map_example.png" alt="map_example" style="zoom:60%;" />
 
-### Main Feature
+### Features
 
 - Map Rastering: Rastering is the job of converting information into a pixel-by-pixel image. Given the longitude, latitude and LonDPP from the browser, the project can show the concrete map images in the browser.
 - Routing & Location Data: Use a real world dataset combined with an industrial strength dataset parser to construct a graph. This graph contains all Location data and route information.
@@ -58,6 +58,4 @@ This project records my version.
 
 - Autocompletion: User can search a point they want through autocompletion. This feature is implemented through constructing a trie.
 
-### Need to Update
-
-- Use k-d tree to implement range search based on longitude and latitude.
+- Nearest Neighbor Search: User can get the nearest neighbor location of the mouse double click point. This feature is implemented through constructing a k-d tree.
